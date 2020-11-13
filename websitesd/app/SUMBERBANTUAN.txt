@@ -1,0 +1,14 @@
+SILAHKAN KUNJUNGI WEBSITE-WEBSITE SUMBER KODE BERIKUT INI JIKA PENASARAN :
+
+NAVBAR :  
+https://codepen.io/linhlekim/pen/QKVgbm?__cf_chl_jschl_tk__=d4ef269623af2352f7e2280d515748a0f83f4f31-1605272278-0-AS5G0BySTBtUntbGC9Vf_vMWgfZzI-qpkdbEbWSrfb1aRPh1A7GhK5TChdsatR3ketca-DmfBXK_f8CQ9QQ-9kl97pgx3wp5sKeh0RxxP4LwMvvlNarcuzupHjAAE7xxBYHTSKucTH0gEQjWPI2w4IfykJuTlqMTA9AOH0IYOK1hlEBnk3uuf5vz81LG8NhmQXx9BJkLuc2UzrCFcukNvZVfgNrfjp3YrhWtlK1YtESkJhoQqMGkT3xRe1-V5TOgeqdRHu7RspQbaaQwZje-Stzw6UdpZGF6Tz0BfEEaohnAOJ1yyzOFZYFrylz-EJNG7Ttb0jdx5cErIKbucOLnB4TqXm7LllI5c3iX-TWzXvQQ
+
+https://www.codexworld.com/bootstrap-navbar-center-align-menu-text/
+
+https://stackoverflow.com/questions/9405610/how-to-change-navbar-collapse-threshold-using-twitter-bootstrap-responsive
+
+https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto
+
+https://stackoverflow.com/questions/22329606/bootstrap-navbar-collapse-media-query-on-custom-width
+
+https://stackoverflow.com/questions/9707397/making-a-div-vertically-scrollable-using-css
