@@ -240,7 +240,7 @@
     <!-- Galeri Foto  -->
   </div>
 
-  <div style="background-color: #fff; padding: 70px; margin-top:100px;">
+  <div style="background-color: #F4F5F5; padding: 70px; margin-top:100px;">
 
     <h1 class="text-center"> Galeri Foto </h1>
     <hr>
@@ -248,15 +248,15 @@
 
       <div class="container row">
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
       </div>
@@ -277,21 +277,22 @@
 
       <div class="container row">
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
       </div>
 
     </center>
   </div>
+
 
   <!-- Akhir Galeri Video -->
 
@@ -305,12 +306,15 @@
       <div class="row">
         <div class="col-lg-4">
           <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/117084160_2897783696993810_8065972388808510081_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFwAJZUlnggoi-zgzS6D9Ijv6P7P-CoALa_o_s_4KgAtnCeGgr7ilmKLHvB1abMk6zvEgHtx2pWUB6ofSKctJom&_nc_ohc=03-yenrPMV0AX9qEbYV&_nc_ht=scontent-sin6-1.xx&oh=7365c81400ff7c464d799ebddb682e10&oe=5FD7BC84" alt="">
+          <div class="col-lg-12">
+            <p style="font-size: 17px; color: #B1B4B6"> Cintara Surya Elidanto, S.Kom </p>
+          </div>
         </div>
 
 
 
         <div class="col-lg-8">
-          <h4 style="text-align:justify">
+          <p style="text-align:justify; font-size: 17px;">
 
             What is Lorem Ipsum?
 
@@ -325,7 +329,7 @@
 
             The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 
-          </h4>
+          </p>
         </div>
 
       </div>

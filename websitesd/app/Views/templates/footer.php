@@ -1,9 +1,10 @@
   <!-- Site footer -->
+  <div class="zoom"></div>
   <footer class="site-footer">
       <div class="container">
           <div class="row">
               <div class="col-sm-12 col-md-6">
-                  <h6>Lokasi Sekolah </h6>
+                  <h3 style="color: #FFD500;">Lokasi Sekolah </h3>
 
                   <!-- MAPS API -->
 
@@ -20,31 +21,27 @@
 
               </div>
 
-              <div class="col-xs-6 col-md-3">
-                  <h6>Temukan Kami</h6>
-                  <ul class="footer-links">
-                      <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                      <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                      <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                      <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                      <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                      <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
-                  </ul>
-              </div>
-
               <div id="medsos" class="col-xs-6 col-md-3">
-                  <h6>Hubungi Kami</h6>
+                  <h3 style="color: #FFD500">Temukan Kami</h3>
                   <ul class="footer-links">
-                      <div>
-                          <a href="#"><span>Facebook</span></a>
-                          <a href="#"><span>Twitter</span></a>
-                          <a href="#"><span>Google+</span></a>
-                          <a href="#"><span>Github</span></a>
-                          <a href="#"><span>Dribbble</span></a>
-                          <a href="#"><span>CodePen</span></a>
+                      <div style="margin-left: 30px;">
+                          <li><a href="https://facebook.com/cintara.elidanto" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
+                          <li><a href="https://www.instagram.com/surselz/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a></li>
+                          <li><a href="https://twitter.com/suryaa6666" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+                          <li><a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA?view_as=subscriber" target="_blank"><i class="fa fa-youtube fa-3x"></i></a></li>
                       </div>
                   </ul>
               </div>
+
+              <div class="col-xs-6 col-md-3">
+                  <h3 style="color: #FFD500;">Hubungi Kami</h3>
+                  <ul class="footer-links">
+                      <li><a><i class="fa fa-whatsapp fa-2x"></i></a> +620895386881400</li>
+                      <li><a href="mailto:suryaelidanto@gmail.com"><i class="fa fa-envelope fa-lg"></i></a> suryaelidanto@gmail.com </li>
+                  </ul>
+              </div>
+
+
           </div>
           <hr>
       </div>
@@ -52,7 +49,7 @@
           <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                   <p class="copyright-text">Copyright &copy; <?= date("Y"); ?> All Rights Reserved by
-                      <a href="https://facebook.com/cintara.elidanto">Surya Elz</a>.
+                      <a href="https://facebook.com/cintara.elidanto" target="_blank">Surya Elz</a>.
                   </p>
               </div>
           </div>
