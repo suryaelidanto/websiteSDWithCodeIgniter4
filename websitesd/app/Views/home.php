@@ -57,5 +57,66 @@
 </center>
 
 
+<!-- BERITA TERBARU -->
+<div style="background-color: #fff; padding: 50px;">
+
+</div>
+
+<!-- Perjudulan -->
+<div style="background-color: #FFD500; width:300px; height: 50px; color: white; margin-left: 50px;">
+<center>
+  <h1 style="line-height: 50px;"> Berita Terbaru </h1>
+</center>
+</div>
+<!-- Akhir -->
+
+<div style="background-color: #FFD500; height: 500px;">
+
+<div style="padding:80px;" class="row">
+<!-- artikel -->
+<div class="col-lg-6 row" style="margin-top: 30px;">  
+          
+            <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
+              <b> 15 NOV </b> 
+            </div>
+
+
+<div class="col-lg-10 row">
+
+          <div class="col-lg-12 panel panel-default">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis quisquam corporis accusantium nam ratione inventore voluptas, voluptatum quasi non, doloribus doloremque? Debitis deleniti sint corrupti laudantium. Provident, architecto accusamus!
+            </div>
+          </div>
+
+            <div class="col-lg-12 row text-center">
+                  <div class="col-lg-6" style="background-color: #fff; width: 100px; height: 25px;float:left; display: inline-block;">
+                    <p style="line-height: 25px;"> Berita</p>
+                  </div>
+
+                  <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
+                    <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
+                  </div>
+              
+            </div>
+          
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<!-- akhir artikel -->
+
+</div>
+
+<!-- Akhir berita terbaru -->
+
+
 
 <body>

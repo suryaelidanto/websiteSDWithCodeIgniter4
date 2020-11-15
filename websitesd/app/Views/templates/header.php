@@ -125,15 +125,13 @@
             .collapse.in{
                 display:block !important;
             }
-            
-        }
-
-        /* Hapus carousel */
-        @media (max-width:1034px) {
             #tes-carousel {
                 display: none;
             }
+            
         }
+
+
 
             
 
