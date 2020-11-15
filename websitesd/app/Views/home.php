@@ -248,47 +248,92 @@
 
       <div class="container row">
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
         <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
       </div>
 
     </center>
+  </div>
 
-    <!-- Akhir Galeri Foto -->
+  <!-- Akhir Galeri Foto -->
 
-    <!-- Galeri Video -->
+  <!-- Galeri Video -->
 
 
-    <div style="background-color: #fff; padding: 70px; margin-top: 200px;">
+  <div style="background-color: #FFD500; padding: 70px; margin-top: 100px; color:white;">
 
-      <h1 class="text-center"> Galeri Video </h1>
-      <hr>
-      <center style="margin-top: 50px;">
+    <h1 class="text-center"> Galeri Video </h1>
+    <hr>
+    <center style="margin-top: 50px;">
 
-        <div class="container row">
-          <div class="col-lg-4">
-            <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive">
-          </div>
-
-          <div class="col-lg-4">
-            <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive">
-          </div>
-
-          <div class="col-lg-4">
-            <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive">
-          </div>
-
+      <div class="container row">
+        <div class="col-lg-4">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
-      </center>
+        <div class="col-lg-4">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+        </div>
 
-      <!-- Akhir Galeri Video -->
+        <div class="col-lg-4">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+        </div>
+
+      </div>
+
+    </center>
+  </div>
+
+  <!-- Akhir Galeri Video -->
+
+  <!-- Sambutan Kepala Sekolah -->
+
+  <div style="background-color: #fff; padding: 70px; margin-top: 100px;">
+
+    <h1 class="text-center"> Sambutan Kepala Sekolah </h1>
+    <hr>
+    <center style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/117084160_2897783696993810_8065972388808510081_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFwAJZUlnggoi-zgzS6D9Ijv6P7P-CoALa_o_s_4KgAtnCeGgr7ilmKLHvB1abMk6zvEgHtx2pWUB6ofSKctJom&_nc_ohc=03-yenrPMV0AX9qEbYV&_nc_ht=scontent-sin6-1.xx&oh=7365c81400ff7c464d799ebddb682e10&oe=5FD7BC84" alt="">
+        </div>
+
+
+
+        <div class="col-lg-8">
+          <h4 style="text-align:justify">
+
+            What is Lorem Ipsum?
+
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Why do we use it?
+
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+            Where does it come from?
+
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+          </h4>
+        </div>
+
+      </div>
+
+
+    </center>
+  </div>
+
+
+
+  <!-- Akhir Sambutan Kepala Sekolah -->
