@@ -1,6 +1,6 @@
 <!-- CAROUSEL -->
 
-<center style="background-color: #000;">
+<center class="parallax">
   <div id="tes-carousel" class="carousel slide" data-ride="carousel" style="width:1024px;">
     <!-- indikator -->
     <ol class="carousel-indicators">
@@ -10,35 +10,25 @@
     </ol>
 
     <div class="carousel-inner">
-
+      <div class="carousel-caption">
+        <h1> SELAMAT DATANG DI WEBSITE SD AL-IRSYAD 02 CILACAP </h1>
+      </div>
       <!-- slide 1 -->
       <div class="item active">
         <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="Demo 1" style="max-width: 1020px; max-height: 640px;" />
         <!-- caption -->
-        <div class="carousel-caption">
-          <h3>Judul Caption 1</h3>
-          <p>Keterangan selanjutnya Caption 1</p>
-        </div>
       </div>
 
       <!-- slide 2 -->
       <div class="item">
         <img src="https://miro.medium.com/max/10790/1*svDSkSCaSXqBXPnM3cy63A.png" alt="Demo 2" style="max-width: 1020px; max-height: 640px;" />
         <!-- caption -->
-        <div class="carousel-caption">
-          <h3>Judul Caption 2</h3>
-          <p>Keterangan selanjutnya Caption 2</p>
-        </div>
       </div>
 
       <!-- slide 3 -->
       <div class="item">
         <img src="https://i.pinimg.com/originals/e4/81/cb/e481cbc93bb6e063fe3029186383c855.jpg" alt="Demo 3" style="max-width: 1020px; max-height: 640px;" />
         <!-- caption -->
-        <div class="carousel-caption">
-          <h3>Judul Caption 3</h3>
-          <p>Keterangan selanjutnya Caption 3</p>
-        </div>
       </div>
 
     </div>
@@ -240,7 +230,7 @@
     <!-- Galeri Foto  -->
   </div>
 
-  <div style="background-color: #F4F5F5; padding: 70px; margin-top:100px;">
+  <div style="background-color: #F4F5F5; padding: 70px 70px 300px 70px;">
 
     <h1 class="text-center"> Galeri Foto </h1>
     <hr>
@@ -269,7 +259,7 @@
   <!-- Galeri Video -->
 
 
-  <div style="background-color: #FFD500; padding: 70px; margin-top: 100px; color:white;">
+  <div style="background-color: #FFD500; padding: 70px 70px 300px 70px; color: white;">
 
     <h1 class="text-center"> Galeri Video </h1>
     <hr>
