@@ -66,158 +66,48 @@
 
     <div style="padding:80px;">
       <!-- artikel -->
-      <div class="col-lg-6 row" style="margin-top: 30px;">
+      <?php foreach ($berita as $b) : ?>
 
-        <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
-          <b> 15 NOV </b>
-        </div>
+        <div class="col-lg-6 row" style="margin-top: 30px;">
 
-
-        <div class="col-lg-10 row">
-
-          <div class="col-lg-12 panel panel-default">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis quisquam corporis accusantium nam ratione inventore voluptas, voluptatum quasi non, doloribus doloremque? Debitis deleniti sint corrupti laudantium. Provident, architecto accusamus!
-            </div>
-          </div>
-
-          <div class="col-lg-12 row text-center">
-            <div class="col-lg-6" style="background-color: #fff; width: 100px; height: 25px;float:left; display: inline-block;">
-              <p style="line-height: 25px;"> Berita</p>
-            </div>
-
-            <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
-              <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
-            </div>
-
+          <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
+            <b> <?= date("d M", $b["tanggal"]); ?> </b>
           </div>
 
 
+          <div class="col-lg-10 row">
 
-        </div>
-
-
-
-
-      </div>
-
-
-
-
-
-
-      <div class="col-lg-6 row" style="margin-top: 30px;">
-
-        <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
-          <b> 15 NOV </b>
-        </div>
-
-
-        <div class="col-lg-10 row">
-
-          <div class="col-lg-12 panel panel-default">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis quisquam corporis accusantium nam ratione inventore voluptas, voluptatum quasi non, doloribus doloremque? Debitis deleniti sint corrupti laudantium. Provident, architecto accusamus!
-            </div>
-          </div>
-
-          <div class="col-lg-12 row text-center">
-            <div class="col-lg-6" style="background-color: #fff; width: 100px; height: 25px;float:left; display: inline-block;">
-              <p style="line-height: 25px;"> Berita</p>
+            <div class="col-lg-12 panel panel-default">
+              <h3><a href=""> <?= $b["judul"]; ?></a> </h3>
+              <div class="panel-body">
+                <?= substr($b["isi"], 0, 200); ?>...
+              </div>
             </div>
 
-            <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
-              <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
+            <div class="col-lg-12 row text-center">
+              <div class="col-lg-6" style="background-color: #fff; width: 100px; height: 25px;float:left; display: inline-block;">
+                <p style="line-height: 25px;"> <?= $b["label"]; ?></p>
+              </div>
+
+              <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
+                <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
+              </div>
+
             </div>
+
+
 
           </div>
 
 
 
-        </div>
-
-
-
-
-      </div>
-
-
-
-
-
-
-      <div class="col-lg-6 row" style="margin-top: 30px;">
-
-        <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
-          <b> 15 NOV </b>
-        </div>
-
-
-        <div class="col-lg-10 row">
-
-          <div class="col-lg-12 panel panel-default">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis quisquam corporis accusantium nam ratione inventore voluptas, voluptatum quasi non, doloribus doloremque? Debitis deleniti sint corrupti laudantium. Provident, architecto accusamus!
-            </div>
-          </div>
-
-          <div class="col-lg-12 row text-center">
-            <div class="col-lg-6" style="background-color: #fff; width: 100px; height: 25px;float:left; display: inline-block;">
-              <p style="line-height: 25px;"> Berita</p>
-            </div>
-
-            <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
-              <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
-            </div>
-
-          </div>
-
-
 
         </div>
+      <?php endforeach; ?>
 
 
 
 
-      </div>
-
-
-
-
-      <div class="col-lg-6 row" style="margin-top: 30px;">
-
-        <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
-          <b> 15 NOV </b>
-        </div>
-
-
-        <div class="col-lg-10 row">
-
-          <div class="col-lg-12 panel panel-default">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis quisquam corporis accusantium nam ratione inventore voluptas, voluptatum quasi non, doloribus doloremque? Debitis deleniti sint corrupti laudantium. Provident, architecto accusamus!
-            </div>
-          </div>
-
-          <div class="col-lg-12 row text-center">
-            <div class="col-lg-6" style="background-color: #fff; width: 100px; height: 25px;float:left; display: inline-block;">
-              <p style="line-height: 25px;"> Berita</p>
-            </div>
-
-            <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
-              <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
-            </div>
-
-          </div>
-
-
-
-        </div>
-
-
-
-
-      </div>
 
       <!-- akhir artikel -->
 
