@@ -62,7 +62,7 @@
   </div>
   <!-- Akhir -->
 
-  <div style="background-color: #FFD500; height: 500px;">
+  <div style="background-color: #FFD500; overflow:hidden; padding-bottom:70px;">
 
     <div style="padding:80px;">
       <!-- artikel -->
