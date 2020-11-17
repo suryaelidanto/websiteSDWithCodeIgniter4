@@ -178,7 +178,7 @@
 
   <!-- Sambutan Kepala Sekolah -->
 
-  <div style="background-color: #fff; padding: 70px; margin-top: 100px;">
+  <div style="background-color: #fff; padding: 70px; margin-top: 100px;" class="animate__animated animate__fadeInLeft">
 
     <h1 class="text-center"> Sambutan Kepala Sekolah </h1>
     <hr>
