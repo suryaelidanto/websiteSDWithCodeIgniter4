@@ -149,7 +149,7 @@
   <!-- Galeri Video -->
 
 
-  <div style="background-color: #FFD500; padding: 70px 70px 300px 70px; color: white;">
+  <div style="background-color: #FFD500; padding: 70px 70px 100px 70px; color: white;">
 
     <h1 class="text-center"> Galeri Video </h1>
     <hr>
@@ -165,7 +165,13 @@
           </div>
         <?php endfor; ?>
       </div>
-
+      <div style="margin-top: 100px;">
+        <a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA" target="_blank">
+          <button type=" button" class="btn btn-primary button-animation" style="background-color: #FFD500; width:300px; height:100px; border:black 3px solid;">
+            <h3> LIHAT LEBIH BANYAK</h3>
+          </button>
+        </a>
+      </div>
     </center>
   </div>
 
@@ -174,7 +180,7 @@
 
   <!-- Sambutan Kepala Sekolah -->
 
-  <div style="background-color: #fff; padding: 70px; margin-top: 100px;" class="animate__animated animate__fadeInLeft test">
+  <div style=" background-color: #fff; padding: 70px; margin-top: 100px;" class="animate__animated animate__fadeInLeft test">
 
     <h1 class="text-center"> Sambutan Kepala Sekolah </h1>
     <hr>
