@@ -1,6 +1,18 @@
 <!-- BAGIAN HEAD -->
-<div class="parallax" style="background-image:url('<?= base_url("assets/headerwebsd.png") ?>'); width: auto; height: 400px;">
-
+<div class="parallax" style="background-image:url('<?= base_url("assets/headerwebsd3.png") ?>'); width: auto; height: 400px;">
+    <center>
+        <div style="display: table; height: 400px; overflow: hidden;">
+            <div style="display: table-cell; vertical-align: middle;">
+                <div>
+                    <center>
+                        <h1 style="color:white;"> BERITA TERBARU </h1>
+                        <hr>
+                        <h2 style="color:white;">Kumpulan berita,info,dan agenda dari SD Al-Irsyad 02 Cilacap </h2>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </center>
 </div>
 
 <div style="background-color:white; width: auto; padding:100px;" class="row">
