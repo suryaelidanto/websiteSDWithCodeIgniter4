@@ -5,9 +5,17 @@
             <div style="display: table-cell; vertical-align: middle;">
                 <div>
                     <center>
-                        <h1 style="color:white;"> BERITA TERBARU </h1>
+                        <h1 style="color:white;    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  "> BERITA TERBARU </h1>
                         <hr>
-                        <h2 style="color:white;">Kumpulan berita,info,dan agenda dari SD Al-Irsyad 02 Cilacap </h2>
+                        <h3 style="color:white;    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  ">KUMPULAN BERITA, INFO, DAN AGENDA SD AL-IRSYAD 02 CILACAP </h3>
                     </center>
                 </div>
             </div>
