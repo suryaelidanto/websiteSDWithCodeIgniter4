@@ -40,7 +40,7 @@
                     <li><a href="<?= base_url("");  ?>">HOME</a></li>
                     <li><a href="#about">TENTANG KAMI</a></li>
                     <li><a href="<?= base_url("/berita"); ?>">BERITA</a></li>
-                    <li><a href="#contact">GALERI</a></li>
+                    <li><a href="<?= base_url("/galerifoto"); ?>">GALERI</a></li>
                     <li><a href="#about">FASILITAS</a></li>
                     <li><a href="#portfolio">PPDB</a></li>
                     <li><a href="#contact">PERPUSTAKAAN</a></li>

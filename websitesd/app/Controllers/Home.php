@@ -45,7 +45,7 @@ class Home extends BaseController
 	{
 		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
 		echo view('templates/header');
-		echo view('berita', $data);
+		echo view('galerifoto', $data);
 		echo view('templates/footer');
 	}
 }
