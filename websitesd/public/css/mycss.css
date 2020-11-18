@@ -294,12 +294,6 @@ html {
     opacity: 1;
 }
 
-.zoom {
-    transition: transform .3s;
-    /* Animation */
-    margin: 0 auto;
-}
-
 .zoom:hover {
     transform: scale(1.05);
 }
@@ -331,6 +325,13 @@ html {
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
     z-index: 1;
+}
+
+
+/* BIAR GAK BISA SAVE GAMBARNYA */
+
+img {
+    pointer-events: none;
 }
 
 

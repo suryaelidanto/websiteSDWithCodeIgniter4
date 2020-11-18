@@ -127,16 +127,16 @@
     <center style="margin-top: 50px;">
 
       <div class="container row">
-        <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+        <div class="col-lg-4 hvr-grow">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
-        <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+        <div class="col-lg-4 hvr-grow">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
-        <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
+        <div class="col-lg-4 hvr-grow">
+          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
         </div>
 
       </div>

@@ -25,10 +25,10 @@
                   <h3 style="color: #FFD500">Temukan Kami</h3>
                   <ul class="footer-links">
                       <div style="margin-left: 30px;">
-                          <li><a href="https://facebook.com/cintara.elidanto" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
-                          <li><a href="https://www.instagram.com/surselz/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a></li>
-                          <li><a href="https://twitter.com/suryaa6666" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
-                          <li><a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA?view_as=subscriber" target="_blank"><i class="fa fa-youtube fa-3x"></i></a></li>
+                          <li><a href="https://facebook.com/cintara.elidanto" target="_blank"><i class="fa fa-facebook fa-3x hvr-float"></i></a></li>
+                          <li><a href="https://www.instagram.com/surselz/" target="_blank"><i class="fa fa-instagram fa-3x hvr-float"></i></a></li>
+                          <li><a href="https://twitter.com/suryaa6666" target="_blank"><i class="fa fa-twitter fa-3x hvr-float"></i></a></li>
+                          <li><a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA?view_as=subscriber" target="_blank"><i class="fa fa-youtube fa-3x hvr-float"></i></a></li>
                       </div>
                   </ul>
               </div>
