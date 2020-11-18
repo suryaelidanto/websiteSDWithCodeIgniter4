@@ -153,21 +153,17 @@
 
     <h1 class="text-center"> Galeri Video </h1>
     <hr>
-    <center style="margin-top: 50px;">
+    <center style="margin-top: 75px;">
 
       <div class="container row">
-        <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
-        </div>
-
-        <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
-        </div>
-
-        <div class="col-lg-4">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="zoom img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
-        </div>
-
+        <?php for ($i = 0; $i <  count($youtube); $i++) : ?>
+          <div class="col-lg-4" style="margin-top:30px;">
+            <iframe width="330px" height="230px" src="https://www.youtube.com/embed/<?= $youtube[$i]["id"]["videoId"]; ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div style="width: 330px; height:30px; background-color:white; color:black;">
+              <h4 style="line-height: 30px;"><?= date("D, d m Y", strtotime(substr($youtube[$i]["snippet"]["publishTime"], 0, 10))); ?></h4>
+            </div>
+          </div>
+        <?php endfor; ?>
       </div>
 
     </center>
@@ -178,7 +174,7 @@
 
   <!-- Sambutan Kepala Sekolah -->
 
-  <div style="background-color: #fff; padding: 70px; margin-top: 100px;" class="animate__animated animate__fadeInLeft">
+  <div style="background-color: #fff; padding: 70px; margin-top: 100px;" class="animate__animated animate__fadeInLeft test">
 
     <h1 class="text-center"> Sambutan Kepala Sekolah </h1>
     <hr>
