@@ -1,6 +1,6 @@
 <!-- CAROUSEL -->
 
-<center class="parallax">
+<center class="parallax" style="background-image:url('<?= base_url("assets/headerwebsd3.png") ?>'); width: auto; height: auto;">
   <div id="tes-carousel" class="carousel slide" data-ride="carousel" style="width:1024px;">
     <!-- indikator -->
     <ol class="carousel-indicators">
@@ -27,21 +27,21 @@
 
       <!-- slide 3 -->
       <div class="item">
-        <img src="https://i.pinimg.com/originals/e4/81/cb/e481cbc93bb6e063fe3029186383c855.jpg" alt="Demo 3" style="max-width: 1020px; max-height: 640px;" />
+        <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/03/16/1704802237.jpg" alt="Demo 3" style="max-width: 1020px; max-height: 640px;" />
         <!-- caption -->
       </div>
 
     </div>
 
     <!-- kontrol-->
-    <a class="carousel-control left" href="#tes-carousel" data-slide="prev">
+    <!-- <a class="carousel-control left" href="#tes-carousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control right" href="#tes-carousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a> -->
 
   </div>
 </center>
@@ -120,29 +120,22 @@
     <!-- Galeri Foto  -->
   </div>
 
-  <div style="background-color: #F4F5F5; padding: 70px 70px 300px 70px;">
+  <div style="background-color: #F4F5F5; padding: 70px 70px 100px 70px;">
 
     <h1 class="text-center"> Galeri Foto </h1>
     <hr>
     <center style="margin-top: 50px;">
 
       <div class="container row">
-        <div class="col-lg-4 hvr-grow">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
-        </div>
-
-        <div class="col-lg-4 hvr-grow">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
-        </div>
-
-        <div class="col-lg-4 hvr-grow">
-          <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px; margin-top: 50px;">
-        </div>
-
+        <?php foreach ($galerifoto as $gf) : ?>
+          <div class="col-lg-4 hvr-grow">
+            <img src="<?= $gf["gambar"]; ?>" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px;min-width:300px; margin-top: 50px; min-height:200px;max-height:200px;">
+          </div>
+        <?php endforeach; ?>
       </div>
 
       <div style="margin-top: 100px;">
-        <a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA" target="_blank">
+        <a href="<?= base_url("/galerifoto"); ?>" target="_blank">
           <button type="button" class="btn btn-primary hvr-grow" style="background-color: #FFD500; width:300px; height:100px; border:black 3px solid;">
             <h3> LIHAT LEBIH BANYAK</h3>
           </button>

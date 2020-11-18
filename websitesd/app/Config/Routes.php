@@ -36,6 +36,7 @@ $routes->get('/berita', 'Home::berita');
 $routes->get('/home(:any)', function () {
 	return redirect()->to("/");
 });
+$routes->get('/galerifoto', 'Home::galerifoto');
 
 
 /**

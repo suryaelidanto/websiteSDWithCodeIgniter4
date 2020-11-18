@@ -16,7 +16,7 @@ class Home extends BaseController
 	public function index()
 	{
 		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
-
+		$data["galerifoto"] = $this->model->db->query("SELECT * FROM galeri LIMIT 3")->getResultArray();
 		/* 
 		APIKEY 1 : AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k
 		APIKEY 2 : AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno
@@ -34,6 +34,14 @@ class Home extends BaseController
 
 
 	public function berita()
+	{
+		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
+		echo view('templates/header');
+		echo view('berita', $data);
+		echo view('templates/footer');
+	}
+
+	public function galerifoto()
 	{
 		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
 		echo view('templates/header');
