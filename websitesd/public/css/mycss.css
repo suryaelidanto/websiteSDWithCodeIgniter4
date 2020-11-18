@@ -317,7 +317,8 @@ html {
     background-size: cover;
 }
 
-.button-animation:hover {
+
+/* .button-animation:hover {
     -webkit-animation-duration: .75s;
     animation-duration: .75s;
     -webkit-animation-duration: calc(var(--animate-duration)*0.75);
@@ -325,7 +326,7 @@ html {
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
     z-index: 1;
-}
+} */
 
 
 /* BIAR GAK BISA SAVE GAMBARNYA */

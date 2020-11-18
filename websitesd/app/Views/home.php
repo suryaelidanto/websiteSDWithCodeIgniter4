@@ -141,6 +141,14 @@
 
       </div>
 
+      <div style="margin-top: 100px;">
+        <a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA" target="_blank">
+          <button type="button" class="btn btn-primary hvr-grow" style="background-color: #FFD500; width:300px; height:100px; border:black 3px solid;">
+            <h3> LIHAT LEBIH BANYAK</h3>
+          </button>
+        </a>
+      </div>
+
     </center>
   </div>
 

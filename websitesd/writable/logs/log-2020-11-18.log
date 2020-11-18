@@ -216,3 +216,6 @@ CRITICAL - 2020-11-18 01:48:19 --> file_get_contents(https://www.googleapis.com/
 #5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
 #7 {main}
+CRITICAL - 2020-11-18 05:27:22 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

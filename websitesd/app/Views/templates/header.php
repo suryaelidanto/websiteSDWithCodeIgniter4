@@ -37,9 +37,9 @@
                         </div> -->
             <div class="collapse navbar-collapse mycollapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-center">
-                    <li><a href="#intro">HOME</a></li>
+                    <li><a href="<?= base_url("");  ?>">HOME</a></li>
                     <li><a href="#about">TENTANG KAMI</a></li>
-                    <li><a href="#portfolio">BERITA</a></li>
+                    <li><a href="<?= base_url("/berita"); ?>">BERITA</a></li>
                     <li><a href="#contact">GALERI</a></li>
                     <li><a href="#about">FASILITAS</a></li>
                     <li><a href="#portfolio">PPDB</a></li>

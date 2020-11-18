@@ -31,4 +31,13 @@ class Home extends BaseController
 		echo view('home', $data);
 		echo view('templates/footer');
 	}
+
+
+	public function berita()
+	{
+		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
+		echo view('templates/header');
+		echo view('berita', $data);
+		echo view('templates/footer');
+	}
 }
