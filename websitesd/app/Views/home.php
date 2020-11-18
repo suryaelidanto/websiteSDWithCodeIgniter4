@@ -1,6 +1,6 @@
 <!-- CAROUSEL -->
 
-<center class="parallax" style="background-image:url('<?= base_url("assets/headerwebsd3.png") ?>'); width: auto; height: auto;">
+<center class="parallax" style="background-color:white; width: auto; height: auto; overflow:hidden;">
   <div id="tes-carousel" class="carousel slide" data-ride="carousel" style="width:1024px;">
     <!-- indikator -->
     <ol class="carousel-indicators">
@@ -15,45 +15,45 @@
       </div>
       <!-- slide 1 -->
       <div class="item active">
-        <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="Demo 1" style="max-width: 1020px; max-height: 640px;" />
+        <img src="https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg" alt="Demo 1" style="max-width: 1020px; height:auto" />
         <!-- caption -->
       </div>
 
       <!-- slide 2 -->
       <div class="item">
-        <img src="https://miro.medium.com/max/10790/1*svDSkSCaSXqBXPnM3cy63A.png" alt="Demo 2" style="max-width: 1020px; max-height: 640px;" />
+        <img src="https://miro.medium.com/max/10790/1*svDSkSCaSXqBXPnM3cy63A.png" alt="Demo 2" style="max-width: 1020px; height:auto" />
         <!-- caption -->
       </div>
 
       <!-- slide 3 -->
       <div class="item">
-        <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/03/16/1704802237.jpg" alt="Demo 3" style="max-width: 1020px; max-height: 640px;" />
+        <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/03/16/1704802237.jpg" alt="Demo 3" style="max-width: 1020px; height:auto;" />
         <!-- caption -->
       </div>
 
     </div>
 
-    <!-- kontrol-->
-    <!-- <a class="carousel-control left" href="#tes-carousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control right" href="#tes-carousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a> -->
 
   </div>
+  <!-- kontrol-->
+  <a class="carousel-control left" href="#tes-carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control right" href="#tes-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
 </center>
 
 <body>
 
 
   <!-- BERITA TERBARU -->
-  <div style="background-color: #fff; padding: 50px;">
+  <div style="margin-top:100px">
 
   </div>
-
   <!-- Perjudulan -->
   <div style="background-color: #FFD500; width:300px; height: 50px; color: white; margin-left: 50px;">
     <center>

@@ -23,7 +23,7 @@ class Home extends BaseController
 		*/
 
 		// Youtube API DATA JSON
-		$apikey = "AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno";
+		$apikey = "AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k";
 		$json = file_get_contents("https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&maxResults=3&order=date&type=video&key=$apikey");
 		$jsonItems = json_decode($json, true);
 		$data["youtube"] = $jsonItems["items"];
@@ -43,7 +43,7 @@ class Home extends BaseController
 
 	public function galerifoto()
 	{
-		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
+		$data["galerifoto"] = $this->model->db->table("galeri")->get()->getResultArray();
 		echo view('templates/header');
 		echo view('galerifoto', $data);
 		echo view('templates/footer');
