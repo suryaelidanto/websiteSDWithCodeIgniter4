@@ -1,6 +1,5 @@
 <!-- BAGIAN HEAD -->
-<div style="background-color:#FFD500; width: auto; height: 300px;">
-
+<div class="parallax" style="background-image:url('<?= base_url("assets/headerwebsd.png") ?>'); width: auto; height: 400px;">
 
 </div>
 
