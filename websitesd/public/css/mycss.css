@@ -393,6 +393,19 @@ hr {
     }
 }
 
+.profil-gray {
+    filter: grayscale(100%);
+}
+
+.profil-gray img {
+    filter: grayscale(100%);
+}
+
+.profil-gray:hover,
+.profil-gray img {
+    filter: grayscale(0%);
+}
+
 
 /* .animate__animated.animate__fadeInLeft {
     --animate-duration: 2s;

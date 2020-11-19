@@ -23,8 +23,18 @@
     </center>
 </div>
 
-<div style="background-color:white; width: auto; padding:100px;" class="container">
-    <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" class="profil-gray">
+<div style="background-color:white; width: auto; padding:100px;" class="container row">
+    <center>
+        <div class="profil-gray col-lg-4" style="width:400px; height:300px;">
+            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:400px; height:300px;overflow:hidden;">
+        </div>
+        <div class="profil-gray col-lg-4" style="width:400px; height:300px;">
+            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:400px; height:300px;overflow:hidden;">
+        </div>
+        <div class="profil-gray col-lg-4" style="width:400px; height:300px;">
+            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:400px; height:300px;overflow:hidden;">
+        </div>
+    </center>
 </div>
 
 <!-- AKHIR BAGIAN HEAD -->
