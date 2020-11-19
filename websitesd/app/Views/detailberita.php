@@ -1,6 +1,8 @@
 <div style="padding:100px;">
-    <h2> <a href=""> <?= $berita[0]["judul"]; ?></a></h2>
-    <img src="<?= $berita[0]["gambar"];  ?>" style="max-width: 500px; margin-bottom:20px;">
+    <center>
+        <h2> <a href=""> <?= $berita[0]["judul"]; ?></a></h2>
+        <img src="<?= $berita[0]["gambar"];  ?>" style="width: 400px; max-height:300px; margin-bottom:20px; margin-top:20px;">
+    </center>
     <div class="col-lg-12">
         <div class="col-lg-3" style="background-color: #FFD500;max-width: 110px;">
             <center><?= $berita[0]["label"]; ?></center>

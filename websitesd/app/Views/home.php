@@ -89,9 +89,9 @@
                 <p style="line-height: 25px;"> <?= $b["label"]; ?></p>
               </div>
 
-              <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
+              <!-- <div class="col-lg-6" style="background-color: #fff; width: 120px; height: 25px;float:right; display: inline-block;">
                 <a style="line-height: 25px;" href="#"> Selengkapnya... </a>
-              </div>
+              </div> -->
 
             </div>
 
@@ -108,17 +108,13 @@
 
 
 
-
       <!-- akhir artikel -->
 
     </div>
 
     <!-- Akhir berita terbaru -->
-
-
-
-    <!-- Galeri Foto  -->
   </div>
+  <!-- Galeri Foto  -->
 
   <div style="background-color: #F4F5F5; padding: 70px 70px 100px 70px;">
 
