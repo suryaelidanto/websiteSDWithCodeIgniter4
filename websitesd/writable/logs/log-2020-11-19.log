@@ -2409,3 +2409,64 @@ CRITICAL - 2020-11-19 05:56:39 --> file_get_contents(https://www.googleapis.com/
 #5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
 #7 {main}
+CRITICAL - 2020-11-19 06:39:58 --> Undefined variable: berita
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/visimisi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('visimisi', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(72): view('visimisi')
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->visimisi()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 06:50:58 --> Invalid file: profilkaryawan.php
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profilkaryawan....')
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('profilkaryawan', Array, true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(79): view('profilkaryawan')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->profilkaryawan()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
+CRITICAL - 2020-11-19 06:51:19 --> Invalid file: profilkaryawan.php
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profilkaryawan....')
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('profilkaryawan', Array, true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(79): view('profilkaryawan')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->profilkaryawan()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
+CRITICAL - 2020-11-19 06:51:47 --> Invalid file: profilkaryawan.php
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profilkaryawan....')
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('profilkaryawan', Array, true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(79): view('profilkaryawan')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->profilkaryawan()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
+CRITICAL - 2020-11-19 06:52:25 --> Invalid file: profilkaryawan.php
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profilkaryawan....')
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('profilkaryawan', Array, true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(79): view('profilkaryawan')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->profilkaryawan()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
+CRITICAL - 2020-11-19 06:53:10 --> Invalid file: profilkaryawan.php
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profilkaryawan....')
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('profilkaryawan', Array, true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(79): view('profilkaryawan')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->profilkaryawan()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
