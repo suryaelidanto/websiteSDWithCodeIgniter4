@@ -48,4 +48,12 @@ class Home extends BaseController
 		echo view('galerifoto', $data);
 		echo view('templates/footer');
 	}
+
+	public function detail($id)
+	{
+		$data["berita"] = $this->model->db->table("berita")->getWhere(["id" => $id])->getResultArray();
+		echo view('templates/header');
+		echo view('detailberita', $data);
+		echo view('templates/footer');
+	}
 }

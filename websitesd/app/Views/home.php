@@ -1,6 +1,6 @@
 <!-- CAROUSEL -->
 
-<center class="parallax" style="background-color:white; width: auto; height: auto; overflow:hidden;">
+<center class="parallax" style="background-image:url('<?= base_url('assets/headerwebsd3.png'); ?>'); width: auto; height: auto;">
   <div id="tes-carousel" class="carousel slide" data-ride="carousel" style="width:1024px;">
     <!-- indikator -->
     <ol class="carousel-indicators">
@@ -33,17 +33,17 @@
 
     </div>
 
+    <!-- kontrol-->
+    <a class="carousel-control left" href="#tes-carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control right" href="#tes-carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
 
   </div>
-  <!-- kontrol-->
-  <a class="carousel-control left" href="#tes-carousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control right" href="#tes-carousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
 
 </center>
 
@@ -78,7 +78,7 @@
           <div class="col-lg-10 row">
 
             <div class="col-lg-12 panel panel-default">
-              <h3><a href=""> <?= $b["judul"]; ?></a> </h3>
+              <h3><a href="<?= base_url('home/detail'); ?>/<?= $b['id'] ?>"> <?= $b["judul"]; ?></a> </h3>
               <div class="panel-body">
                 <?= substr($b["isi"], 0, 200); ?>...
               </div>

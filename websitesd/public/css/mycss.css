@@ -307,8 +307,7 @@ html {
 .parallax {
     /* The image used */
     /* Set a specific height */
-    min-height: auto;
-    min-width: 1280px;
+    min-width: auto;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -376,6 +375,13 @@ img {
     background-color: #FFD500;
     color: white;
     transform: rotateY(180deg);
+}
+
+hr {
+    position: relative;
+    border: none;
+    height: 2px;
+    background: #B1B4B6;
 }
 
 
