@@ -75,8 +75,9 @@ class Home extends BaseController
 
 	public function profilkaryawan()
 	{
+		$data["profil"] = $this->model->db->table("profil")->get()->getResultArray();
 		echo view('templates/header');
-		echo view('profilkaryawan');
+		echo view('profilkaryawan', $data);
 		echo view('templates/footer');
 	}
 }

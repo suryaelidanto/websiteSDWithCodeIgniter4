@@ -25,12 +25,11 @@
 
 <div style="background-color:white; width: auto; padding:100px;">
     <div style="display:table; margin: 0 auto;" class="row">
-        <div class="profil-gray col-lg-6" style="width:500px; height:400px; margin: 10px;">
-            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:500px; height:400px;overflow:hidden;">
-        </div>
-        <div class="profil-gray col-lg-6" style="width:500px; height:400px; margin: 10px;">
-            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:500px; height:400px;overflow:hidden;">
-        </div>
+        <?php foreach ($profil as $p) : ?>
+            <div class="profil-gray col-lg-6" style="width:500px; height:400px; margin: 50px;">
+                <img src="<?= base_url("karyawan"); ?>/<?= $p["gambar"]; ?>" alt="Profil Karyawan" style="width:500px; height:400px;overflow:hidden;">
+            </div>
+        <?php endforeach; ?>
     </div>
 </div>
 
