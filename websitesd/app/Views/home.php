@@ -179,13 +179,13 @@
 
   <!-- Sambutan Kepala Sekolah -->
 
-  <div style=" background-color: #fff; padding: 70px; margin-top: 100px;" class="animate__animated animate__fadeInLeft test">
+  <div style=" background-color: #fff; padding: 70px; margin-top: 100px;">
 
-    <h1 class="text-center"> Sambutan Kepala Sekolah </h1>
+    <h1 class="text-center" data-aos="fade-down"> Sambutan Kepala Sekolah </h1>
     <hr>
     <center style="margin-top: 50px;">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-right">
           <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/117084160_2897783696993810_8065972388808510081_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFwAJZUlnggoi-zgzS6D9Ijv6P7P-CoALa_o_s_4KgAtnCeGgr7ilmKLHvB1abMk6zvEgHtx2pWUB6ofSKctJom&_nc_ohc=03-yenrPMV0AX9qEbYV&_nc_ht=scontent-sin6-1.xx&oh=7365c81400ff7c464d799ebddb682e10&oe=5FD7BC84" alt="">
           <div class="col-lg-12">
             <p style="font-size: 17px; color: #B1B4B6"> Cintara Surya Elidanto, S.Kom </p>
@@ -194,7 +194,7 @@
 
 
 
-        <div class="col-lg-8">
+        <div class="col-lg-8" data-aos="fade-left">
           <p style="text-align:justify; font-size: 17px;">
 
             What is Lorem Ipsum?

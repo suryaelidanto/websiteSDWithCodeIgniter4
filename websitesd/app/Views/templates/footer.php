@@ -109,6 +109,13 @@
           .pauseFor(2500)
           .start();
   </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          duration: 1200,
+          once: true
+      })
+  </script>
   </body>
 
   </html>
