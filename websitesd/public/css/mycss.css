@@ -385,6 +385,15 @@ hr {
 }
 
 
+/* DROP DOWN HEADER */
+
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+
 /* .animate__animated.animate__fadeInLeft {
     --animate-duration: 2s;
   }
