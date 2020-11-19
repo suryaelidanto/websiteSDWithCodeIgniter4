@@ -65,4 +65,18 @@ class Home extends BaseController
 		echo view('detailberita', $data);
 		echo view('templates/footer');
 	}
+
+	public function visimisi()
+	{
+		echo view('templates/header');
+		echo view('visimisi');
+		echo view('templates/footer');
+	}
+
+	public function profilkaryawan()
+	{
+		echo view('templates/header');
+		echo view('profilkaryawan');
+		echo view('templates/footer');
+	}
 }

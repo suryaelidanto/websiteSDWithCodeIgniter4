@@ -34,6 +34,10 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/berita', 'Home::berita');
 $routes->get('/galerifoto', 'Home::galerifoto');
+$routes->get('/visimisi', 'Home::visimisi');
+$routes->get('/profilkaryawan', 'Home::profilkaryawan');
+
+
 
 
 /**

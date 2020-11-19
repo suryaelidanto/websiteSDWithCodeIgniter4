@@ -43,8 +43,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TENTANG KAMI <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">VISI MISI</a></li>
-                            <li><a href="#">PROFIL KARYAWAN</a></li>
+                            <li><a href="<?= base_url("/visimisi"); ?>">VISI MISI</a></li>
+                            <li><a href="<?= base_url("/profilkaryawan"); ?>">PROFIL KARYAWAN</a></li>
                         </ul>
                     </li>
                     <li><a href="<?= base_url("/berita"); ?>">BERITA</a></li>

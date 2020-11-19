@@ -57,7 +57,7 @@
 
   </div>
   <!-- Perjudulan -->
-  <div style="background-color: #FFD500; width:300px; height: 50px; color: white; margin-left: 50px;">
+  <div data-aos="fade-right" style="background-color: #FFD500; width:300px; height: 50px; color: white; margin-left: 50px;">
     <center>
       <h1 style="line-height: 50px;"> Berita Terbaru </h1>
     </center>
@@ -70,7 +70,7 @@
       <!-- artikel -->
       <?php foreach ($berita as $b) : ?>
 
-        <div class="col-lg-6 row" style="margin-top: 30px;">
+        <div class="col-lg-6 row" style="margin-top: 30px;" data-aos="fade-right">
 
           <div class="col-lg-2 text-center" style="background-color: #fff; width: 50px; height: 50px; margin-right:20px;">
             <b> <?= date("d M", $b["tanggal"]); ?> </b>
@@ -120,19 +120,19 @@
 
   <div style="background-color: #F4F5F5; padding: 70px 70px 100px 70px;">
 
-    <h1 class="text-center"> Galeri Foto </h1>
+    <h1 class="text-center" data-aos="fade-down"> Galeri Foto </h1>
     <hr>
     <center style="margin-top: 50px;">
 
       <div class="container row">
         <?php foreach ($galerifoto as $gf) : ?>
-          <div class="col-lg-4 hvr-grow">
+          <div class="col-lg-4 hvr-grow" data-aos="fade-up">
             <img src="<?= $gf["gambar"]; ?>" alt="..." class="img-thumbnail img-responsive" style="max-width: 300px;min-width:300px; margin-top: 50px; min-height:200px;max-height:200px;">
           </div>
         <?php endforeach; ?>
       </div>
 
-      <div style="margin-top: 100px;">
+      <div style="margin-top: 100px;" data-aos="zoom-out">
         <a href="<?= base_url("/galerifoto"); ?>" target="_blank">
           <button type="button" class="btn btn-primary hvr-grow" style="background-color: #FFD500; width:300px; height:100px; border:black 3px solid;">
             <h3> LIHAT LEBIH BANYAK</h3>
@@ -150,13 +150,13 @@
 
   <div style="background-color: #FFD500; padding: 70px 70px 100px 70px; color: white;">
 
-    <h1 class="text-center"> Galeri Video </h1>
+    <h1 class="text-center" data-aos="fade-down"> Galeri Video </h1>
     <hr>
     <center style="margin-top: 75px;">
 
       <div class="container row">
         <?php for ($i = 0; $i <  count($youtube); $i++) : ?>
-          <div class="col-lg-4" style="margin-top:30px;">
+          <div class="col-lg-4" style="margin-top:30px;" data-aos="fade-up">
             <iframe width="330px" height="230px" src="https://www.youtube.com/embed/<?= $youtube[$i]["id"]["videoId"]; ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div style="width: 330px; height:30px; background-color:white; color:black;">
               <h4 style="line-height: 30px;"><?= date("D, d m Y", strtotime(substr($youtube[$i]["snippet"]["publishTime"], 0, 10))); ?></h4>
@@ -164,7 +164,7 @@
           </div>
         <?php endfor; ?>
       </div>
-      <div style="margin-top: 100px;">
+      <div style="margin-top: 100px;" data-aos="zoom-out">
         <a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA" target="_blank">
           <button type="button" class="btn btn-primary hvr-grow" style="background-color: #FFD500; width:300px; height:100px; border:black 3px solid;">
             <h3> LIHAT LEBIH BANYAK</h3>
