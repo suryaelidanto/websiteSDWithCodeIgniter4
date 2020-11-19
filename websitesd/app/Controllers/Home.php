@@ -22,7 +22,7 @@ class Home extends BaseController
 		APIKEY 2 : AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno
 		*/
 
-		// Youtube API DATA JSON
+		// Youtube API DATA JSON\
 		$apikey = "AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k";
 		$json = file_get_contents("https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&maxResults=3&order=date&type=video&key=$apikey");
 		$jsonItems = json_decode($json, true);

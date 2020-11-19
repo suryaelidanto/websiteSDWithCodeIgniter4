@@ -11,7 +11,9 @@
 
     <div class="carousel-inner">
       <div class="carousel-caption">
-        <h1> SELAMAT DATANG DI WEBSITE SD AL-IRSYAD 02 CILACAP </h1>
+        <h1>
+          <div id="app"></div>
+        </h1>
       </div>
       <!-- slide 1 -->
       <div class="item active">

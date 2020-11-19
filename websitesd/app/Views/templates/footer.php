@@ -92,7 +92,23 @@
           }
       });
   </script>
-  </body>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+      var app = document.getElementById('app');
+
+      var typewriter = new Typewriter(app, {
+          loop: true
+      });
+
+      typewriter.typeString('SELAMAT DATANG DI WEBSITE SD AL-IRSYAD 02 CILACAP')
+          .pauseFor(2500)
+          .deleteAll()
+          .typeString('SEKOLAH UNGGUL, KREATIF, DAN INOVATIF')
+          .pauseFor(2500)
+          .deleteChars(7)
+          .pauseFor(2500)
+          .start();
+  </script>
   </body>
 
   </html>
