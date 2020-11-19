@@ -23,18 +23,15 @@
     </center>
 </div>
 
-<div style="background-color:white; width: auto; padding:100px;" class="container row">
-    <center>
-        <div class="profil-gray col-lg-4" style="width:400px; height:300px;">
-            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:400px; height:300px;overflow:hidden;">
+<div style="background-color:white; width: auto; padding:100px;">
+    <div style="display:table; margin: 0 auto;" class="row">
+        <div class="profil-gray col-lg-6" style="width:500px; height:400px; margin: 10px;">
+            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:500px; height:400px;overflow:hidden;">
         </div>
-        <div class="profil-gray col-lg-4" style="width:400px; height:300px;">
-            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:400px; height:300px;overflow:hidden;">
+        <div class="profil-gray col-lg-6" style="width:500px; height:400px; margin: 10px;">
+            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:500px; height:400px;overflow:hidden;">
         </div>
-        <div class="profil-gray col-lg-4" style="width:400px; height:300px;">
-            <img src="<?= base_url("karyawan/1.jpg"); ?>" alt="Profil Karyawan" style="width:400px; height:300px;overflow:hidden;">
-        </div>
-    </center>
+    </div>
 </div>
 
 <!-- AKHIR BAGIAN HEAD -->
