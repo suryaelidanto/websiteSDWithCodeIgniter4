@@ -2470,3 +2470,313 @@ CRITICAL - 2020-11-19 06:53:10 --> Invalid file: profilkaryawan.php
 #6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
 #8 {main}
+CRITICAL - 2020-11-19 20:21:18 --> Unable to connect to the database.
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
+CRITICAL - 2020-11-19 20:21:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/suryaelid...', 100, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Debug/Exceptions.php(308): include('/home/suryaelid...')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-19 20:21:21 --> Unable to connect to the database.
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#8 {main}
+CRITICAL - 2020-11-19 20:21:21 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/suryaelid...', 100, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Debug/Exceptions.php(308): include('/home/suryaelid...')
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-19 20:25:58 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 28, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(28): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:26:32 --> Undefined variable: judul
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/templates/header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 5, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(31): view('templates/heade...')
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 20:27:33 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 28, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(28): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:28:43 --> Undefined variable: data
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 77, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->visimisi()
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#6 {main}
+CRITICAL - 2020-11-19 20:30:53 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/detailberita.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 3, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('detailberita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(72): view('detailberita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->tentang('12')
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 20:30:53 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/detailberita.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 3, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('detailberita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(72): view('detailberita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->tentang('css', 'normalize.css')
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 20:30:53 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/detailberita.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 3, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('detailberita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(72): view('detailberita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->tentang('css', 'layout.css')
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 20:30:53 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/detailberita.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 3, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('detailberita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(72): view('detailberita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->tentang('css', 'style.css')
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 20:31:27 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 28, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(28): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:32:31 --> Undefined variable: judul
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/templates/header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 5, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(61): view('templates/heade...', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->detail('1')
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-19 20:33:04 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 60, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->detail('css', 'normalize.css')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#6 {main}
+CRITICAL - 2020-11-19 20:33:04 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 60, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->detail('css', 'layout.css')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#6 {main}
+CRITICAL - 2020-11-19 20:33:04 --> Undefined offset: 0
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/suryaelid...', 60, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->detail('css', 'style.css')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#6 {main}
+CRITICAL - 2020-11-19 20:33:48 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 28, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(28): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:34:26 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDMev1d2JTQ3QrdcFDP-_UrgjTOqcIeUHM): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(29): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:34:30 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDMev1d2JTQ3QrdcFDP-_UrgjTOqcIeUHM): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(29): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:35:59 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDMev1d2JTQ3QrdcFDP-_UrgjTOqcIeUHM): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(29): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:37:01 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(29): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:37:05 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(29): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:37:06 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyAg57KPN5d5vGGKcYaBEHURoEFuhit4nno): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(29): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:38:47 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyCTh74-40kkedqFsnff2Yne0qtATVxXt40): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:38:58 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:39:00 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:39:00 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:39:01 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:39:01 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}
+CRITICAL - 2020-11-19 20:39:18 --> file_get_contents(https://www.googleapis.com/youtube/v3/search?part=snippet&amp;channelId=UCeJfiHw5K5kq3zDLJ-NR0jA&amp;maxResults=3&amp;order=date&amp;type=video&amp;key=AIzaSyDfUOi9xDZBJjW-dijNM66xhcd4GsioX8k): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/suryaelid...', 30, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(30): file_get_contents('https://www.goo...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#7 {main}

@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> AAA </title>
+    <title> <?= $judul; ?> </title>
     <meta name="description" content="Website SD Al-Irsyad 02">
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
