@@ -418,6 +418,14 @@ hr {
     filter: grayscale(0%);
 }
 
+.modal-dialog {
+    margin-top: 150px;
+}
+
+.modal-dialog {
+    max-width: 480px;
+}
+
 
 /* .animate__animated.animate__fadeInLeft {
     --animate-duration: 2s;
