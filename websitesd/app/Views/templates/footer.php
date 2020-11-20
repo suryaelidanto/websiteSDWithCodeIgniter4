@@ -123,6 +123,21 @@
           })
       });
   </script>
+  <script>
+      $("[id='detailprofilbtn']").each(function() {
+          jQuery(this).mousedown(function() {
+              var gambar = $(this).data('gambar');
+              var nama = $(this).data('nama');
+              var jabatan = $(this).data('jabatan');
+              var nik = $(this).data('nik');
+
+              $("#gambarprofil").attr('src', "<?= base_url("karyawan"); ?>/" + gambar);
+              $("#namaprofil").val(nama);
+              $("#jabatanprofil").val(jabatan);
+              $("#nikprofil").val(nik);
+          })
+      });
+  </script>
   </body>
 
   </html>

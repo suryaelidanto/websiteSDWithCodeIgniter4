@@ -31,7 +31,7 @@
                     <img src="<?= base_url("karyawan"); ?>/<?= $p["gambar"]; ?>" alt="Profil Karyawan" style="width:500px; height:400px;overflow:hidden;">
                 </div>
                 <div class="col-lg-12">
-                    <button class="btn btn-warning" style="width:500px;" data-toggle="modal" data-target="#detailprofil">
+                    <button id="detailprofilbtn" class="btn btn-warning" style="width:500px;" data-nama="<?= $p["nama_karyawan"]; ?>" data-nik="<?= $p["nik"]; ?>" data-gambar="<?= $p["gambar"]; ?>" data-jabatan="<?= $p["jabatan"]; ?>" data-toggle="modal" data-target="#detailprofil">
                         <p style="font-size:15px;"> DETAIL </p>
                     </button>
                 </div>
@@ -55,18 +55,20 @@
                     </div>
 
                     <div class="modal-body">
-                        <center><img src="<?= base_url("karyawan"); ?>/1.jpg" alt="Profil Karyawan" style="width:200px; height:200px;overflow:hidden;" class="img-responsive img-thumbnail"></center>
+                        <center>
+                            <img id="gambarprofil" src="" alt="Profil Karyawan" style="width:200px; height:200px;overflow:hidden;" class="img-responsive img-thumbnail">
+                        </center>
                         <div class="input-group" style="width:100%; margin-top:30px;">
                             <label for="nama"> NAMA : </label>
-                            <input type="text" class="form-control" value="nama" id="nama" name="nama" readonly>
+                            <input type="text" class="form-control" value="nama" id="namaprofil" name="namaprofil" readonly>
                         </div>
                         <div class="input-group" style="width:100%; margin-top:30px;">
                             <label for="jabatan"> JABATAN : </label>
-                            <input type="text" class="form-control" value="jabatan" id="jabatan" name="jabatan" readonly>
+                            <input type="text" class="form-control" value="jabatan" id="jabatanprofil" name="jabatanprofil" readonly>
                         </div>
                         <div class="input-group" style="width:100%; margin-top:30px;">
                             <label for="nik"> NIK : </label>
-                            <input type="text" class="form-control" value="nik" id="nik" name="nik" readonly>
+                            <input type="text" class="form-control" value="nik" id="nikprofil" name="nikprofil" readonly>
                         </div>
                     </div>
 
