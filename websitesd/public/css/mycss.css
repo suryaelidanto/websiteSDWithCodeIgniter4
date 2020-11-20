@@ -412,6 +412,12 @@ hr {
     transition: all 0.3s ease-in-out;
 }
 
+.permahover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 
 /* .animate__animated.animate__fadeInLeft {
     --animate-duration: 2s;

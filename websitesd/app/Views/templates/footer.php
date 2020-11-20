@@ -116,6 +116,13 @@
           once: true
       })
   </script>
+  <script>
+      $("div[id = 'iniwarnain']").each(function() {
+          jQuery(this).mouseover(function() {
+              $(this).addClass('permahover');
+          })
+      });
+  </script>
   </body>
 
   </html>

@@ -19,6 +19,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' /> -->
+    <!-- MENCOBA MENGGUNAKAN LESS -->
+    <link href="<?= base_url("css/css.less"); ?>" rel="stylesheet">
 
 </head>
 <nav class="navbar navbar-default navbar-fixed-top sticky-top">
