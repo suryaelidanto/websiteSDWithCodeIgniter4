@@ -26,7 +26,7 @@
 <div style="background-color:white; width: auto; padding:100px;" class="row">
     <div class="col-lg-8 row" style="margin-right:100px;">
         <!-- PER ARTIKEL -->
-        <?php foreach ($berita as $b) : ?>
+        <?php foreach ($pagination["users"] as $b) : ?>
             <div class="col-lg-12 row">
                 <div class="col-lg-4">
                     <img src="<?= $b["gambar"]; ?>" alt="" style="max-width: 200px; margin-top: 20px;">
@@ -51,6 +51,7 @@
                 <hr class="col-lg-12">
             </div>
         <?php endforeach; ?>
+        <?= $pagination["pager"]->links(); ?>
         <!-- AKHIR PER ARTIKEL -->
     </div>
 

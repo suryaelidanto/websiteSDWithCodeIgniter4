@@ -7,10 +7,12 @@ use App\Models\UserModel;
 class Home extends BaseController
 {
 	protected $model;
+	protected $pager;
 
 	public function __construct()
 	{
 		$this->model = new UserModel();
+		$this->pager = \Config\Services::pager();
 	}
 	// Home view
 	public function index()
@@ -38,8 +40,11 @@ class Home extends BaseController
 
 	public function berita()
 	{
-		$data["berita"] = $this->model->db->table("berita")->get()->getResultArray();
 		$data["judul"] = "BERITA - SD AL-IRSYAD 02 CILACAP";
+		$data["pagination"] = [
+			'users' => $this->model->paginate(2),
+			'pager' => $this->model->pager
+		];
 
 		echo view('templates/header', $data);
 		echo view('berita', $data);

@@ -1,0 +1,91 @@
+CRITICAL - 2020-11-21 02:29:23 --> Undefined variable: pager
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 53, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(51): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-21 02:29:43 --> Undefined variable: pager
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 54, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(51): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-21 02:34:40 --> Call to a member function paginate() on array
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#5 {main}
+CRITICAL - 2020-11-21 02:36:12 --> Trying to get property 'users' of non-object
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(51): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-21 02:36:31 --> Trying to get property 'users' of non-object
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(51): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-21 02:36:40 --> Trying to get property 'users' of non-object
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(51): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-21 02:44:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#5 {main}
+CRITICAL - 2020-11-21 02:45:37 --> Undefined variable: berita
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(50): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
+CRITICAL - 2020-11-21 02:45:56 --> Trying to get property 'users' of non-object
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/suryaelid...', 29, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('berita', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(50): view('berita', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}
