@@ -26,7 +26,7 @@
 <div style="background-color:white; width: auto; padding:100px;" class="container">
 
     <h3 data-aos="fade-down"> VISI : </h3>
-    <p style="font-size:20px" data-aos="fade-right">
+    <p style="font-size:20px" data-aos="fade-down">
         TERWUJUDNYA SELURUH POTENSICIVITAS AKADEMIKA MENJADI GENERASI QURANI YANG BERWAWASAN GLOBAL.
     </p>
     <h3 data-aos="fade-down">MISI : </h3>

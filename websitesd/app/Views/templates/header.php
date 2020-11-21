@@ -45,19 +45,19 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TENTANG KAMI <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?= base_url("/visimisi"); ?>">VISI MISI</a></li>
-                            <li><a href="<?= base_url("/profilkaryawan"); ?>">PROFIL KARYAWAN</a></li>
+                            <li><a href="<?= base_url("visimisi"); ?>">VISI MISI</a></li>
+                            <li><a href="<?= base_url("profilkaryawan"); ?>">PROFIL KARYAWAN</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?= base_url("/berita"); ?>">BERITA</a></li>
+                    <li><a href="<?= base_url("berita"); ?>">BERITA</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALERI <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?= base_url("/galerifoto"); ?>">GALERI FOTO</a></li>
+                            <li><a href="<?= base_url("galerifoto"); ?>">GALERI FOTO</a></li>
                             <li><a href="https://www.youtube.com/channel/UCeJfiHw5K5kq3zDLJ-NR0jA">GALERI VIDEO</a></li>
                         </ul>
                     </li>
-                    <li><a href="#about">FASILITAS</a></li>
+                    <li><a href="<?= base_url("fasilitas"); ?>">FASILITAS</a></li>
                     <li><a href="#contact">PERPUSTAKAAN</a></li>
                 </ul>
             </div>

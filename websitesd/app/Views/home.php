@@ -133,7 +133,7 @@
       </div>
 
       <div style="margin-top: 100px;" data-aos="zoom-out">
-        <a href="<?= base_url("/galerifoto"); ?>" target="_blank">
+        <a href="<?= base_url("galerifoto"); ?>" target="_blank">
           <button type="button" class="btn btn-primary hvr-grow" style="background-color: #FFD500; width:300px; height:100px; border:black 3px solid;">
             <h3> LIHAT LEBIH BANYAK</h3>
           </button>

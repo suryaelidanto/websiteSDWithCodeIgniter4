@@ -85,4 +85,13 @@ class Home extends BaseController
 		echo view('profilkaryawan', $data);
 		echo view('templates/footer');
 	}
+
+	public function fasilitas()
+	{
+		$data["judul"] = "FASILITAS - SD AL-IRSYAD 02 CILACAP";
+
+		echo view('templates/header', $data);
+		echo view('fasilitas');
+		echo view('templates/footer');
+	}
 }
