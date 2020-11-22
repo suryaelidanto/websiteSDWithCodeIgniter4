@@ -32,20 +32,20 @@
                 <th>Judul</th>
                 <th>Jenis</th>
                 <th>Tanggal Input</th>
-                <th>Telah Didownload</th>
                 <th>Download</th>
             </tr>
         </thead>
         <tbody>
+            <?php $no = 1; ?>
             <?php foreach ($perpustakaan as $p) : ?>
-                <?php $no = 1; ?>
                 <tr>
                     <td><?= $no; ?></td>
                     <td><?= $p["nama"]; ?></td>
                     <td><?= $p["jenis"]; ?></td>
                     <td><?= date("d M Y", $p["tanggal_input"]); ?></td>
-                    <td><?= $p["telah_download"]; ?></td>
-                    <td><a href="<?= $p["link_download"]; ?>" class="btn btn-primary" download> Download </a></td>
+                    <td>
+                        <center><a href="<?= $p["link_download"]; ?>" class="btn btn-primary" download> Download </a></center>
+                    </td>
                 </tr>
                 <?php $no++ ?>
             <?php endforeach; ?>

@@ -141,6 +141,7 @@
   <script>
       $(document).ready(function() {
           $('#myTable').dataTable({
+              "pageLength": 2,
               "sPaginationType": "full_numbers"
           });
       });

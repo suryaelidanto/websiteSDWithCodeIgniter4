@@ -426,6 +426,11 @@ hr {
     max-width: 480px;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
 
 /* .animate__animated.animate__fadeInLeft {
     --animate-duration: 2s;
