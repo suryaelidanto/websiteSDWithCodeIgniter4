@@ -98,3 +98,14 @@ CRITICAL - 2020-11-21 18:14:24 --> syntax error, unexpected end of file
 #5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
 #7 {main}
+CRITICAL - 2020-11-21 18:56:37 --> Undefined variable: p
+#0 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Views/perpustakaan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/suryaelid...', 51, Array)
+#1 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/View/View.php(246): include('/home/suryaelid...')
+#2 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Common.php(1119): CodeIgniter\View\View->render('perpustakaan', Array, true)
+#3 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/app/Controllers/Home.php(108): view('perpustakaan', Array)
+#4 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(918): App\Controllers\Home->perpustakaan()
+#5 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/suryaelidanto/websitesd/websiteSDWithCodeIgniter4.git/websitesd/system/Commands/Server/rewrite.php(34): require_once('/home/suryaelid...')
+#9 {main}

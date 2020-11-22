@@ -28,28 +28,30 @@
     <table id="myTable" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
+                <th> No. </th>
+                <th>Judul</th>
+                <th>Jenis</th>
+                <th>Tanggal Input</th>
+                <th>Telah Didownload</th>
+                <th>Download</th>
             </tr>
         </thead>
-        <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
-            </tr>
-        </tfoot>
         <tbody>
-            <!-- table body -->
+            <?php foreach ($perpustakaan as $p) : ?>
+                <?php $no = 1; ?>
+                <tr>
+                    <td><?= $no; ?></td>
+                    <td><?= $p["nama"]; ?></td>
+                    <td><?= $p["jenis"]; ?></td>
+                    <td><?= date("d M Y", $p["tanggal_input"]); ?></td>
+                    <td><?= $p["telah_download"]; ?></td>
+                    <td><a href="<?= $p["link_download"]; ?>" class="btn btn-primary" download> Download </a></td>
+                </tr>
+                <?php $no++ ?>
+            <?php endforeach; ?>
         </tbody>
     </table>
+
 </div>
 
 <!-- AKHIR BAGIAN HEAD -->
