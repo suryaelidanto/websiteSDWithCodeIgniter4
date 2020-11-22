@@ -99,4 +99,13 @@ class Home extends BaseController
 		echo view('fasilitas');
 		echo view('templates/footer');
 	}
+
+	public function perpustakaan()
+	{
+		$data["judul"] = "PERPUSTAKAAN - SD AL-IRSYAD 02 CILACAP";
+		$data["perpustakaan"] = $this->model->db->table("perpustakaan")->get()->getResultArray();
+		echo view('templates/header', $data);
+		echo view('perpustakaan', $data);
+		echo view('templates/footer');
+	}
 }

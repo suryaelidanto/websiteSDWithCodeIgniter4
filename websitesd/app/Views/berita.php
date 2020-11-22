@@ -51,7 +51,8 @@
                 <hr class="col-lg-12">
             </div>
         <?php endforeach; ?>
-        <?= $pagination["pager"]->links(); ?>
+        <center><?= $pagination["pager"]->links(); ?></center>
+
         <!-- AKHIR PER ARTIKEL -->
     </div>
 

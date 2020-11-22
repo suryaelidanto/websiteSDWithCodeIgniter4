@@ -74,7 +74,7 @@
   </script>
   <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqAIGnG-lm_4cqtoGisn0wCwNWsaB0BvY&callback=initMap">
   </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs/jqc-1.12.4/dt-1.10.22/b-1.6.5/r-2.2.6/sp-1.2.1/datatables.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script>
       $('.dropdown-toggle').click(function(e) {
@@ -138,6 +138,14 @@
           })
       });
   </script>
+  <script>
+      $(document).ready(function() {
+          $('#myTable').dataTable({
+              "sPaginationType": "full_numbers"
+          });
+      });
+  </script>
+
   </body>
 
   </html>

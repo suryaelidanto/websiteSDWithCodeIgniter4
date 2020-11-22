@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="<?= base_url("css/hover-min.css"); ?>" />
     <!-- AOS atau Animate On Scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jqc-1.12.4/dt-1.10.22/b-1.6.5/r-2.2.6/sp-1.2.1/datatables.min.css" />
     <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' /> -->
     <!-- MENCOBA MENGGUNAKAN LESS -->
@@ -58,7 +59,7 @@
                         </ul>
                     </li>
                     <li><a href="<?= base_url("fasilitas"); ?>">FASILITAS</a></li>
-                    <li><a href="#contact">PERPUSTAKAAN</a></li>
+                    <li><a href="<?= base_url("perpustakaan"); ?>">PERPUSTAKAAN</a></li>
                 </ul>
             </div>
         </div>
